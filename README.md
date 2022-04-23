@@ -1,1 +1,1 @@
-# JackNPoy
+# Rock Paper Scissor
