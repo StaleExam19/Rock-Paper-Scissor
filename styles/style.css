@@ -1,0 +1,72 @@
+* {
+    font-family: 'Bangers', sans-serif;
+    color: #222;
+}
+
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.weapon-choice-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.weapon-choice {
+    height: 300px;
+    width: 300px;
+    /* background-color: #222; */
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+.weapon-choice img {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+.weapon-option-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.weapon-option {
+    height: 150px;
+    width: 150px;
+    transition: all .05s ease;
+}
+
+.weapon-option:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#start-button {
+    padding: 1rem 2rem;
+    transition: all .05s ease;
+}
+
+#start-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.hidden {
+    display: none;
+}
